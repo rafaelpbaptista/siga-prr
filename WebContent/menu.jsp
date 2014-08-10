@@ -6,8 +6,8 @@
 <head>
 <meta charset="UTF-8">
 <title>SIGA-PRR</title>
-<link rel="stylesheet" href="css/estilos.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="resources/css/estilos.css">
+<link href="resources/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css"
 	href="http://fonts.googleapis.com/css?family=Play">
 <script src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
