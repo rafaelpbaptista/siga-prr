@@ -32,7 +32,7 @@
 				type="submit">Login</button>
 			<a href="#">Esqueceu a senha?</a>
 		</form>
-		<form class="form-newuser" action="novoUsuario" method="POST">
+		<form class="form-newuser" action="usuarioForm" method="POST">
 			<button class=" input-block-level btn btn-large btn-danger"
 				type="submit">Cadastre-se agora</button>
 		</form>

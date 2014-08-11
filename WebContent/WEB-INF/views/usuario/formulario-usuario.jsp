@@ -27,21 +27,35 @@
 	</ul>
 
 	<div class="container">
-		<form action="adicionaUsuario" method="POST">
+		<form class="form-horizontal well" action="adicionaUsuario"
+			method="POST">
 			<fieldset>
-				<legend>Novo Usuário</legend>
-				<label>Nome: <input name="nome" placeholder="nome comleto"
-					required></label> <label>Email: <input name="email"
-					type="email" placeholder="email" required></label> <label>Senha:
-				</label> <input name="senha" type="password" placeholder="Senha"> <label>Confirme
-					sua senha: </label> <input name="senhaConfirma" type="password"
-					placeholder="Senha">
+				<legend class="lead"><strong>Novo Usuário</strong></legend>
+				<label for="nome" class="lead"> Nome <input
+					type="text" name="nome" placeholder="Nome comleto" required
+					autofocus></label> <label class="lead" for="email"> Email <input
+					type="email" name="email" placeholder="Email institucional"
+					required>
+				</label> <label class="lead" for="senha"> Senha <input
+					type="password" name="senha" placeholder="Digite uma senha"
+					required>
+				</label> <label class="lead" for="senhaConfirmacao"> Confirme sua
+					senha <input type="password" name="senhaConfirmacao"
+					placeholder="Confirme sua senha" required>
+				</label>
+				<div class="well">
+					<div class="col-sm-offset-3 col-sm-4">
+						<button type="submit" class="btn btn-lg btn-block btn-success">Gravar</button>
+						<button type="button" class="btn btn-lg btn-block btn-danger">Cancelar</button>
+					</div>
+				</div>
 			</fieldset>
 		</form>
 	</div>
+
 	<div id="rodape">
-		<p>SIGA-PRR | Sistema Integrado de Gestão Acadêmica | Desenvolvido por
-			DeSisCEaD | Versão 1.0.0</p>
+		<p>SIGA-PRR | Sistema Integrado de Gestão Acadêmica | Desenvolvido
+			por DeSisCEaD | Versão 1.0.0</p>
 	</div>
 </body>
 </html>

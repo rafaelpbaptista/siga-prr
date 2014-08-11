@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class UsuarioControler {
 
-	@RequestMapping("formUsuario")
+	@RequestMapping("usuarioForm")
 	public String form() {
 		return "usuario/formulario-usuario";
 
