@@ -39,7 +39,7 @@
 	</div>
 
 	<div id="rodape">
-		<p>SIGA-PRR | Sistema de Gestão Acadêmica | Desenvolvido por
+		<p>SIGA-PRR | Sistema Integrado de Gestão Acadêmica | Desenvolvido por
 			DeSisCEaD | Versão 1.0.0</p>
 	</div>
 
