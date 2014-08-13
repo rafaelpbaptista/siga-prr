@@ -19,7 +19,7 @@
 
 	<mvc:default-servlet-handler />
 
-	<mvc:view-controller path="/" view-name="formulario-login" />
+	<mvc:view-controller path="/" view-name="login/formulario-login" />
 
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	<mvc:resources mapping="/tags/**" location="/tags/" />
